@@ -45,7 +45,7 @@ body
 /*region main*/
 .button_box
 {
-    width: 70%;
+    width: 55%;
     margin: 20px auto;
     background-color: white;
     border-top-right-radius: 5px;
@@ -72,7 +72,19 @@ body
     border-color: #b1b2b5;
     border-width: 1px;
 }
-#line
+.list_box
 {
-    border-color: #b1b2b5;
+    width: 55%;
+    margin: 20px auto;
+    background-color: white;
+    padding:10px
+
+}
+.text_margin
+{
+    margin-left: 30px;
+}
+.checkmarker
+{
+    color: green;
 }
