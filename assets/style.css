@@ -16,7 +16,7 @@ body
 {
     font-family: 'Almarai';
     margin: 0;
-    background-color:black;
+    background-color:var(--bool-lighter);
 }
 
 
@@ -43,12 +43,36 @@ body
 }
 
 /*region main*/
-#main_header
+.button_box
 {
-    margin-top: 15rem;
-    margin;
-    background-color: white
-    
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding:10px
 }
-
-
+#task_button
+{
+    color:white;
+    font-size: x-small;
+    background-color:var(--bool-primary) ;
+    margin-left: 30px;
+}
+#section_button
+{
+    color:#b1b2b5;
+    font-size: x-small;
+    background-color:white;
+}
+.add_button
+{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #b1b2b5;
+    border-width: 1px;
+}
+#line
+{
+    border-color: #b1b2b5;
+}
