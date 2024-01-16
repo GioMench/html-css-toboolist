@@ -1,0 +1,54 @@
+/*region utility*/
+:root
+{
+    --bool-primary:#47adf1;
+    --bool-secondary: #65C1A9;
+    --bool-accent: #f39e32FF;
+    --bool-darker: #9D72E5;
+    --bool-dark: #D963A0;
+    --bool-light: #B0C827;
+    --bool-lighter: #f7f8f8;
+    font-family: 'Almarai';
+}
+    
+/*region common*/
+body
+{
+    font-family: 'Almarai';
+    margin: 0;
+    background-color:black;
+}
+
+
+    
+
+/*region header*/
+#site_header
+{
+  background-size: 293px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  background-color: white;
+}
+
+#head
+{
+    font-size: 2.5rem;
+}
+
+.logo
+{
+    vertical-align: middle;
+}
+
+/*region main*/
+#main_header
+{
+    margin-top: 15rem;
+    margin;
+    background-color: white
+    
+}
+
+
