@@ -10,13 +10,13 @@
     --tobo-lighter: #b1b2b5;
     --tobo-body:#f7f9f9;
     --tobo-logo: #051831;
-    font-family: ;
+    --tobo-font-family: 'Roboto', sans-serif;;
 }
     
 /*region common*/
 body
 {
-    font-family:'Almarai';
+    font-family:var(--tobo-font-family);
     margin: 0;
     background-color: var(--tobo-body);
     font-size:;
