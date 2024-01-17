@@ -7,7 +7,8 @@
     --tobo-goals: #9D72E5;
     --tobo-website: #D963A0;
     --tobo-sales: #B0C827;
-    --tobo-lighter: #f7f8f8;
+    --tobo-lighter: #b1b2b5;
+    --tobo-body:#f7f9f9;
     --tobo-logo: #051831;
     font-family: 'Almarai';
 }
@@ -17,7 +18,7 @@ body
 {
     font-family:'Almarai';
     margin: 0;
-    background-color:var(--bool-lighter);
+    background-color: var(--tobo-body);
 }
 
 
@@ -26,7 +27,7 @@ body
 /*region header*/
 #site_header
 {
-  background-size: 293px;
+  background-size: 270px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -45,3 +46,45 @@ body
 }
 
 /*region main*/
+
+.box
+{
+    width:55%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+/*da rivere
+.main_head
+{
+    padding: 10px;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--tobo-lighter);
+}
+*/
+
+.add_button
+{
+    padding: 5px;
+    font-size: x-small;
+    border-radius: 6px;
+}
+
+.task
+{
+    color: white;
+    background-color: var(--tobo-editorial);
+    margin-left: 30px;
+    border-width:0px;
+}
+.section
+{
+    color:var(--tobo-lighter);
+    border-color: var(--tobo-lighter);
+    background-color: white;
+    border-width: 0.05rem;
+}
+
