@@ -10,7 +10,7 @@
     --tobo-lighter: #b1b2b5;
     --tobo-body:#f7f9f9;
     --tobo-logo: #051831;
-    font-family: 'Almarai';
+    font-family: ;
 }
     
 /*region common*/
@@ -19,6 +19,7 @@ body
     font-family:'Almarai';
     margin: 0;
     background-color: var(--tobo-body);
+    font-size:;
 }
 
 
@@ -49,22 +50,21 @@ body
 
 .box
 {
-    width:55%;
-    margin: 20px auto;
+    width: 45%;
+    margin: 30px auto;
     background-color: white;
     border-radius: 8px;
-    padding: 10px;
 
 }
 
-/*da rivere
+/*da rivere */ 
 .main_head
 {
     padding: 10px;
-    border-bottom-width: 2px;
-    border-bottom-color: var(--tobo-lighter);
+    border-bottom: 2px solid var(--tobo-body);
+    margin:0;
 }
-*/
+
 
 .add_button
 {
