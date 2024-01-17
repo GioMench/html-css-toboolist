@@ -88,7 +88,11 @@ body
     border-width: 0.05rem;
 }
 /*end main head*/
-
+/*main element*/
+div
+{
+    line-height: 30px;
+}
 .element
 {
     margin-left: 30px;
@@ -154,3 +158,4 @@ body
 {
     background-color: var(--tobo-sales);
 }
+/*end main element*/
