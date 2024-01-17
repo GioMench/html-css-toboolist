@@ -87,4 +87,70 @@ body
     background-color: white;
     border-width: 0.05rem;
 }
+/*end main head*/
 
+.element
+{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.checkmark
+{
+    color: green;
+    box-sizing: border-box;
+    border: solid green;
+    border-width: 1px;
+    border-radius: 50%;
+    font-size: 9px;
+    padding: 3.5px;
+}
+.crossmark
+{
+    color: red;
+    box-sizing: border-box;
+    border: solid red;
+    border-width: 1px;
+    border-radius: 50%;
+    font-size: 9px;
+    padding: 3.5px;
+}
+
+.button
+{
+    padding: 5px;
+    font-size: x-small;
+    border-radius: 9px;
+    color: white;
+
+}
+
+.editorial
+{
+    background-color: var(--tobo-editorial);
+}
+    
+.goals
+{
+    background-color: var(--tobo-goals);
+}
+
+.recruiting
+{
+    background-color: var(--tobo-recruiting);
+}
+
+.mobile
+{
+    background-color: var(--tobo-mobile);
+}
+
+.webiste
+{
+    background-color: var(--tobo-website);
+}
+
+.sales
+{
+    background-color: var(--tobo-sales);
+}
